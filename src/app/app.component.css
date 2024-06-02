@@ -1,6 +1,5 @@
-/* Estilos generales */
 header {
-    background-color: #a0a0a0;
+    background-color: #0021b4c4;
     padding: 10px;
 }
 
@@ -9,6 +8,7 @@ header nav {
     flex-direction: row;
     justify-content: end;
     margin-right: 20px;
+    
 }
 
 header nav a {
@@ -16,9 +16,9 @@ header nav a {
     color: black;
     padding: 7px;
     margin-right: 5px;
+    color: rgb(228, 229, 230);
 }
 
-/* Media queries para hacer el diseño responsive */
 @media only screen and (max-width: 768px) {
     header nav {
         flex-direction: column;
@@ -41,178 +41,4 @@ header nav a {
 
 
 
-    .main-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        border: 10px solid #000000;
-        padding: 40px;
-        gap: 20px;
-        max-width: 1200px;
-        margin: auto;
-    }
     
-    .main-description {
-        flex-basis: 50%;
-        padding: 20px;
-        box-sizing: border-box;
-        text-align: left;
-    }
-    
-    .main-description h1 {
-        font-size: 2.5em;
-        margin-bottom: 10px;
-        color: #333;
-    }
-    
-    .main-description h2 {
-        font-size: 1.8em;
-        margin-bottom: 20px;
-        color: #555;
-    }
-    
-    .main-description p {
-        font-size: 1.2em;
-        line-height: 1.5;
-        color: #666;
-    }
-    
-    .main-img {
-        flex-basis: 50%;
-        padding: 20px;
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .main-img img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    @media (max-width: 768px) {
-        .main-container {
-            flex-direction: column;
-            padding: 20px;
-        }
-    
-        .main-description, .main-img {
-            flex-basis: 100%;
-            padding: 10px;
-        }
-    
-        .main-description h1 {
-            font-size: 2em;
-        }
-    
-        .main-description h2 {
-            font-size: 1.5em;
-        }
-    
-        .main-description p {
-            font-size: 1em;
-        }
-    }
-
-    
-    .Experience-container {
-        border: 10px solid #000000;
-        padding: 40px;
-        max-width: 1200px;
-        margin: auto;
-        background-color: #f9f9f9;
-    }
-    
-    .Experience-container h1 {
-        text-align: center;
-        font-size: 2.5em;
-        color: #333;
-        margin-bottom: 20px;
-    }
-    
-    .Experience-container p {
-        text-align: center;
-        font-size: 1.2em;
-        color: #666;
-        margin-bottom: 40px;
-        line-height: 1.5;
-    }
-    
-    .Experience-1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 40px;
-        gap: 20px;
-    }
-    
-    .Experience-description {
-        flex-basis: 50%;
-        padding: 20px;
-        box-sizing: border-box;
-        text-align: left;
-    }
-    
-    .Experience-description h1 {
-        font-size: 2em;
-        margin-bottom: 10px;
-        color: #333;
-    }
-    
-    .Experience-description h2 {
-        font-size: 1.1em;
-        margin-bottom: 20px;
-        color: #555;
-    }
-    
-    .Experience-description p {
-        text-align: left;
-        font-size: 1.1em;
-        line-height: 1.5;
-        color: #666;
-    }
-    
-    .Experience-img {
-        flex-basis: 50%;
-        padding: 20px;
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .Experience-img img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    
-    /* Media Query for responsiveness */
-    @media (max-width: 768px) {
-        .Experience-1 {
-            flex-direction: column;
-            padding: 20px;
-        }
-    
-        .Experience-description, .Experience-img {
-            flex-basis: 100%;
-            padding: 10px;
-        }
-    
-        .Experience-description h1 {
-            font-size: 1.8em;
-        }
-    
-        .Experience-description h2 {
-            font-size: 1.3em;
-        }
-    
-        .Experience-description p {
-            font-size: 1em;
-        }
-    }
-
