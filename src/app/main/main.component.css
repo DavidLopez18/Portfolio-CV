@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px solid #000000;
     padding: 40px;
     gap: 20px;
     max-width: 1200px;
     margin: auto;
+    margin-top: 60px;
 }
 
 .main-description {

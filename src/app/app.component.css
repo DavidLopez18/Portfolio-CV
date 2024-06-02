@@ -1,6 +1,10 @@
 header {
     background-color: #000000c4;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 header nav {
@@ -8,7 +12,6 @@ header nav {
     flex-direction: row;
     justify-content: end;
     margin-right: 20px;
-    
 }
 
 header nav a {
@@ -35,10 +38,6 @@ header nav a {
 @media only screen and (max-width: 600px) {
     header {
         padding: 5px;
+        position: static;
     }
 }
-
-
-
-
-    
