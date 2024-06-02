@@ -21,7 +21,7 @@
     line-height: 1.5;
 }
 
-.Experience-1 ,.Experience-2 {
+.Experience-1 ,.Experience-2, .Experience-3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
