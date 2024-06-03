@@ -10,7 +10,7 @@ header {
 header nav {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     margin-right: 20px;
 }
 
@@ -18,8 +18,8 @@ header nav a {
     text-decoration: none;
     color: black;
     padding: 7px;
-    margin-right: 5px;
-    color: rgb(228, 229, 230);
+    margin-right: 50px;
+    color: #e4e5e6;
 }
 
 @media only screen and (max-width: 768px) {
