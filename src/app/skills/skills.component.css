@@ -24,11 +24,11 @@
 .Skills-1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .Skills-1-description {
-    flex-basis: 10px;
+    flex-basis: 30%;
     padding: 20px;
     box-sizing: border-box;
     text-align: left;

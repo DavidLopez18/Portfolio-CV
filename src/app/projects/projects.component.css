@@ -90,4 +90,9 @@
     .Projects-description p {
         font-size: 1em;
     }
+
+    .Projects-img img {
+        width: 100%;
+        height: auto;
+    }
 }
