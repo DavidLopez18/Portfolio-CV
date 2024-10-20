@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 # Ignorar archivos dentro de la carpeta assets
-/src/assets/
+#/src/assets/
