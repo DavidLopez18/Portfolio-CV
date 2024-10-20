@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:Portfolio-CV": "node dist/portfolio-cv/server/server.mjs"
+
   },
   "private": true,
   "dependencies": {
