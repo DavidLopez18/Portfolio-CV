@@ -33,18 +33,21 @@
     box-sizing: border-box;
     text-align: left;
     margin-bottom: 20px;
+    
 }
 
 .Skills-1-description h1 {
     font-size: 2em;
     margin-bottom: 10px;
     color: #333;
+    
 }
 
 .Skills-1-description p {
     font-size: 1.1em;
     line-height: 1.5;
     color: #666;
+    
 }
 
 @media (max-width: 768px) {
