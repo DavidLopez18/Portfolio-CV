@@ -6,3 +6,6 @@
     font-family: 'IBM Plex Sans', sans-serif;     
 }
 
+body {
+    background-image: url('/assets/images/Background.jpg');
+}
